@@ -1,0 +1,10 @@
+>>> array = [23, 45, 67.7, 'anil']
+>>> i=0
+>>>
+>>> while i < len(array):
+...     while type(array[i]) == str:
+...         array[i] = int(input())
+...         if type(array[i]) == int:
+...             break
+...     i = i +1
+
