@@ -1,0 +1,4 @@
+# to clear screen on python cmd console
+
+>>> from os import system
+>>> system('cls')
